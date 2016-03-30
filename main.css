@@ -3,6 +3,7 @@ h1 {
   text-align: center;
 }
 .container {
+  position: relative;
   width: 500px;
   /*height: 75px;*/
   margin: 50px auto;
@@ -18,6 +19,16 @@ h1 {
   float: left;
 }
 
+.close {
+  /*float: right;*/
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  background-color: red;
+  color: white;
+  padding: 5px 8px;
+
+}
 /*.box1 {
   background-color: red;
   float: left;
